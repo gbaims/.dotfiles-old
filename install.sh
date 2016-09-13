@@ -8,6 +8,9 @@ ln_s () {
   ln -sfn "$DOTFILES_ROOT/$1" "$2"
 }
 
+echo "Configuring Input"
+  ln_s .inputrc .
+
 echo "Configuring Vim"
   ln_s .vim .
   ln_s .vimrc .
