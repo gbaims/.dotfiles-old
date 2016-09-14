@@ -27,4 +27,4 @@ set listchars=""                  " Reset listchars
 set list listchars=tab:»·,trail:· " Set listchars for tabs and trailing spaces
 
 " Apparence
-colorscheme Tomorrow-Night   " Tomorrow Night is the theme of choice
+colorscheme Tomorrow-Night   "  Tomorrow Night is the theme of choice
