@@ -8,6 +8,9 @@ ln_s () {
   ln -sfn "$DOTFILES_ROOT/$1" "$2"
 }
 
+echo "Configuring Git"
+  ln_s .gitconfig .
+
 echo "Configuring Mintty"
   ln_s .minttyrc .
 
