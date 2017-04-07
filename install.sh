@@ -15,6 +15,7 @@ echo "Configuring Git"
   ln_s .gitconfig .
 
 echo "Configuring Mintty"
+echo "Depending on the OS, you'll need to copy .minttyrc to a specific folder on host OS."
   ln_s .minttyrc .
 
 echo "Configuring Input"
