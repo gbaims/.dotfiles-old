@@ -1,6 +1,9 @@
-Font=Menlo for Powerline
-FontIsBold=yes
-FontHeight=12
+Term=xterm-256color
+Font=Consolas
+FontHeight=14
 CursorType=underscore
+ClicksPlaceCursor=yes
+FontWeight=400
+FontIsBold=no
 Locale=pt_BR
 Charset=UTF-8
