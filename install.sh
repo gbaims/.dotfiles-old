@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 cd "$HOME"
@@ -18,6 +18,9 @@ echo "Configuring Input"
   ln_s .inputrc .
 
 echo "Configuring Vim"
+  if [[ -d ".vim" && ! -L ".vim" ]] ; then
+    rm -rf .vim
+  fi
   ln_s .vim .
   ln_s .vimrc .
 
