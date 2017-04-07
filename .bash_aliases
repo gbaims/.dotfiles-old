@@ -1,3 +1,6 @@
+# Define shell colors
+. ~/.dotfiles/base16-shell/scripts/base16-solarized-dark.sh
+
 # Define shell prompt
 export GIT_PS1_SHOWDIRTYSTATE=1           # '*'=unstaged, '+'=staged
 export GIT_PS1_SHOWSTASHSTATE=1           # '$'=stashed

@@ -28,8 +28,5 @@ echo "Configuring Vim"
   ln_s .vim .
   ln_s .vimrc .
 
-echo "Configuring Shell colors"
-  exec $SHELL "$DOTFILES_ROOT/base16-shell/scripts/base16-solarized-dark.sh"
-
 echo "Reloading the Shell"
   exec $SHELL -l 
