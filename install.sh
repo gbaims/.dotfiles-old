@@ -8,6 +8,9 @@ ln_s () {
   ln -sfn "$DOTFILES_ROOT/$1" "$2"
 }
 
+echo "Configuring Bash"
+  ln_s .bash_aliases .
+
 echo "Configuring Git"
   ln_s .gitconfig .
 
