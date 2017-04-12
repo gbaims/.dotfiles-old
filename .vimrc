@@ -27,3 +27,10 @@ set list listchars=tab:»·,trail:· " Set listchars for tabs and trailing space
 
 " Apparence
 colorscheme Tomorrow-Night   "  Tomorrow Night is the theme of choice
+
+" Plugins with vim.plug
+call plug#begin('~/.vim/plugged')
+
+Plug 'editorconfig/editorconfig-vim'
+
+call plug#end()
