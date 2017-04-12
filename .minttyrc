@@ -1,6 +1,6 @@
 Term=xterm-256color
 Font=Consolas
-FontHeight=14
+FontHeight=12
 CursorType=underscore
 ClicksPlaceCursor=yes
 FontWeight=400
