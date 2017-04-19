@@ -1,3 +1,12 @@
+# With git-1.8, the completion and prompt bits were split.  The allows lazy
+# autoloading of the completion commands.  But it means we have to source a
+# different file to get __git_ps1().
+git_prompt=/usr/share/git-core/contrib/completion/git-prompt.sh
+if ! type __git_ps1 &>/dev/null && [[ -f $git_prompt ]]; then
+    source $git_prompt
+fi
+unset git_prompt
+
 # Define shell colors
 . ~/.dotfiles/base16-shell/scripts/base16-tomorrow-night.sh
 
