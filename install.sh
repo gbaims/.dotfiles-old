@@ -11,6 +11,9 @@ ln_s () {
 echo "Configuring Bash"
   ln_s .bash_aliases .
 
+echo "Configuring Fonts"
+  ln_s .fonts .
+
 echo "Configuring Git"
   ln_s .gitconfig .
 
