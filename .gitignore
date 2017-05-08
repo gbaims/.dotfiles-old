@@ -1,2 +1,5 @@
 # Ignore installed Vim Plugins
 .vim/plugged/**
+
+# VIM: netrw.vim: Network oriented reading, writing, browsing (eg: ftp scp) 
+.vim/.netrwhist
