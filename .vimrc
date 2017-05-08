@@ -32,5 +32,6 @@ colorscheme Tomorrow-Night   "  Tomorrow Night is the theme of choice
 call plug#begin('~/.vim/plugged')
 
 Plug 'editorconfig/editorconfig-vim'
+Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 
 call plug#end()
