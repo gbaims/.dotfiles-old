@@ -36,3 +36,6 @@ Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'tpope/vim-surround'
 
 call plug#end()
+
+" NERDTree Configuration
+let NERDTreeShowHidden=1
